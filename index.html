@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pasific</title>
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+
+<body>
+
+    <!-- Main Header -->
+    <header class="flex items-center justify-between p-[16px]">
+        <!-- Logo Icon -->
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <style>
+                .circle-container {
+                    display: flex;
+                    justify-content: space-around;
+                    text-align: center;
+                    margin: 50px;
+                }
+                .circle {
+                    width: 10px;
+                    height: 10px;
+                    border: 3px solid #4285f4;
+                    border-radius: 50%;
+                    margin-bottom: 10px;
+                }
+                .label {
+                    font-family: Arial, sans-serif;
+                    font-size: 16px;
+                    color: #333;
+                }
+            </style>
+        </head>
+        <body>
+            <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .city-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .city-circle {
+            width: 20px;
+            height: 20px;
+            border: 4px solid #e74c3c;  /* Changed to red (Surabaya's colors) */
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            background: linear-gradient(45deg, #f5f5f5, #e0e0e0);
+        }
+        .city-image {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+        .city-circle:hover .city-image {
+            transform: scale(1.05);
+            box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.3);
+        }
+        .city-name {
+            margin-top: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .city-name::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #e74c3c;
+            margin: 8px auto 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="city-container">
+        <div class="city-circle">
+            <img src="SKJ.png" 
+                 alt="Sumatera Kalimantan Jaya" 
+                 class="city-image">
+        </div>
+        <div class="company name">SUMATERA KALIMANTAN JAYA</div>
+    </div>
+</body>
+</html>
+        <nav>
+                <ul class="flex gap-[8px]">
+                    <li><a href="#home-page"
+                           class="text-gray-700 border py-[2px] px-[2px] rounded-[8px] hover:text-blue-500">Home</a></li>
+                    <li><a href="#our-profile"
+                            class="text-gray-700 border py-[2px] px-[2px] rounded-[8px] hover:text-blue-500">Our
+                            Profile</a></li>
+                            <li><a href="#portfolio"
+                            class="text-gray-700 border py-[2px] px-[2px] rounded-[8px] hover:text-blue-500">Portfolio</a>
+                    </li>
+                            <li><a href="#message-us"
+                            class="text-gray-700 border py-[2px] px-[2px] rounded-[8px] hover:text-blue-500">Message
+                    Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr />
+
+    <!-- Main content -->
+    <main>
+        <!-- Home -->
+        <section id="home-page" class="h-[400px] bg-gray-100">
+            <div class="flex items-center justify-center h-full">
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Enter Your Name</title>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 100vh;
+                            margin: 0;
+                            background-color: #f5f5f5;
+                        }
+                        .login-container {
+                            background: white;
+                            padding: 30px;
+                            border-radius: 8px;
+                            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                            text-align: center;
+                            width: 350px;
+                        }
+                        h1 {
+                            color: #333;
+                            margin-bottom: 20px;
+                        }
+                        input[type="text"] {
+                            width: 100%;
+                            padding: 12px;
+                            margin: 10px 0;
+                            border: 1px solid #ddd;
+                            border-radius: 4px;
+                            box-sizing: border-box;
+                            font-size: 16px;
+                        }
+                        button {
+                            background-color: #4285f4;
+                            color: white;
+                            border: none;
+                            padding: 12px 20px;
+                            border-radius: 4px;
+                            cursor: pointer;
+                            font-size: 16px;
+                            width: 100%;
+                            margin-top: 10px;
+                        }
+                        button:hover {
+                            background-color: #3367d6;
+                        }
+                        .error {
+                            color: red;
+                            margin-top: 5px;
+                            font-size: 14px;
+                            display: none;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="login-container" id="loginForm">
+                        <h1>Welcome to Our Website</h1>
+                        <p>Please enter your name to continue</p>
+                        <input type="text" id="userName" placeholder="Your Name" required>
+                        <div class="error" id="errorMsg">Please enter your name</div>
+                        <button onclick="validateName()">Enter</button>
+                    </div>
+                
+                    <div id="mainContent" style="display: none;">
+                        <!-- Your website content goes here -->
+                        <h1>Welcome, <span id="displayName"></span>!</h1>
+                        <p>Selamat Datang di Situs SKJ</p>
+                        <button onclick="logout()">Logout</button>
+                    </div>
+                
+                    <script>
+                        function validateName() {
+                            const name = document.getElementById('userName').value.trim();
+                            const errorMsg = document.getElementById('errorMsg');
+                            
+                            if (name === '') {
+                                errorMsg.style.display = 'block';
+                                return;
+                            }
+                            
+                            // Store the name (could use localStorage, sessionStorage, or cookies)
+                            localStorage.setItem('userName', name);
+                            
+                            // Hide login form and show main content
+                            document.getElementById('loginForm').style.display = 'none';
+                            document.getElementById('mainContent').style.display = 'block';
+                            document.getElementById('displayName').textContent = name;
+                        }
+                        
+                        function logout() {
+                            // Clear the stored name
+                            localStorage.removeItem('userName');
+                            
+                            // Show login form and hide main content
+                            document.getElementById('loginForm').style.display = 'block';
+                            document.getElementById('mainContent').style.display = 'none';
+                            document.getElementById('userName').value = '';
+                        }
+                        
+                        // Check if user is already logged in when page loads
+                        window.onload = function() {
+                            const storedName = localStorage.getItem('userName');
+                            if (storedName) {
+                                document.getElementById('loginForm').style.display = 'none';
+                                document.getElementById('mainContent').style.display = 'block';
+                                document.getElementById('displayName').textContent = storedName;
+                            }
+                        };
+                    </script>
+                </body>
+                </html>
+            </div>
+        </section>
+
+        <hr />
+
+        <!-- Our Profile -->
+        <section id="our-profile" class="text- h-[110px] bg-gray-100">
+            <header>
+                <h1 class="text-2xl font-bold text-gray-800">Our Profile</h1>
+            </header>
+                <body   class="bg-gray-100"> Our Head Quarters is located in Jakarta, with branches in Surabaya and Pekanbaru.
+        </section>
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <style>
+                .circle-container {
+                    display: flex;
+                    justify-content: space-around;
+                    text-align: center;
+                    margin: 50px;
+                }
+                .circle {
+                    width: 100px;
+                    height: 100px;
+                    border: 3px solid #4285f4;
+                    border-radius: 50%;
+                    margin-bottom: 10px;
+                }
+                .label {
+                    font-family: Arial, sans-serif;
+                    font-size: 16px;
+                    color: #333;
+                }
+            </style>
+        </head>
+        <body>
+            <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .city-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .city-circle {
+            width: 200px;
+            height: 200px;
+            border: 4px solid #e74c3c;  /* Changed to red (Surabaya's colors) */
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            background: linear-gradient(45deg, #f5f5f5, #e0e0e0);
+        }
+        .city-image {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+        .city-circle:hover .city-image {
+            transform: scale(1.05);
+            box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.3);
+        }
+        .city-name {
+            margin-top: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .city-name::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #e74c3c;
+            margin: 8px auto 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="city-container">
+        <div class="city-circle">
+            <!-- Surabaya landmark image -->
+            <img src="https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                 alt="Surabaya" 
+                 class="city-image">
+        </div>
+        <div class="city-name">Surabaya</div>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            font-family: 'Poppins', sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .city-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            width: 280px;
+        }
+        .city-circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            position: relative;
+            border: 4px solid;
+            background: #fff;
+        }
+        .jakarta-circle {
+            border-color: #008C45; /* Jakarta green */
+        }
+        .pekanbaru-circle {
+            border-color: #F7B731; /* Pekanbaru gold */
+        }
+        .city-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .city-circle:hover .city-image {
+            transform: scale(1.05);
+        }
+        .city-name {
+            margin-top: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+        .city-name::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            margin: 8px auto 0;
+        }
+        .jakarta-name::after {
+            background: linear-gradient(90deg, #008C45, #FF0000);
+        }
+        .pekanbaru-name::after {
+            background: linear-gradient(90deg, #F7B731, #EB3B5A);
+        }
+        .city-badge {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Jakarta -->
+    <div class="city-container">
+        <div class="city-circle jakarta-circle">
+            <img src="Jakarta.png" 
+                 alt="Monas Jakarta" 
+                 class="city-image">
+            <div class="city-badge">DKI</div>
+        </div>
+        <div class="city-name jakarta-name">JAKARTA</div>
+    </div>
+
+    <!-- Pekanbaru -->
+    <div class="city-container">
+        <div class="city-circle pekanbaru-circle">
+            <img src="Pekanbaru.png"
+                 alt="Masjid An-Nur Pekanbaru" 
+                 class="city-image">
+            <div class="city-badge">RIAU</div>
+        </div>
+        <div class="city-name pekanbaru-name">PEKANBARU</div>
+    </div>
+</body>
+</html>
+        <hr />
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="text-center h-[400px] bg-gray-100">
+            <header>
+                <h1 class="text-4xl font-bold text-gray-800">Portfolio</h1>
+            </header>
+
+            <p class="text-gray-600">
+            </p>
+        </section>
+        <hr />
+
+        <!-- Message Us -->
+        <section id="message-us" class="h-[400px] bg-gray-100">
+            <header>
+                <h1 class="text-4xl font-bold text-gray-800">Message Us</h1>
+            </header>
+
+            <form>
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Message Us Form</title>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            max-width: 600px;
+                            margin: 0 auto;
+                            padding: 20px;
+                        }
+                        h1 {
+                            text-align: center;
+                            color: #333;
+                        }
+                        .form-table {
+                            width: 100%;
+                            border-collapse: collapse;
+                            margin-bottom: 20px;
+                        }
+                        .form-table td {
+                            padding: 10px;
+                            vertical-align: top;
+                        }
+                        .form-table td:nth-child(1) {
+                            width: 30%;
+                        }
+                        .form-table td:nth-child(2) {
+                            width: 5%;
+                        }
+                        input[type="text"], 
+                        input[type="date"],
+                        textarea {
+                            width: 100%;
+                            padding: 8px;
+                            border: 1px solid #ddd;
+                            border-radius: 4px;
+                            box-sizing: border-box;
+                        }
+                        textarea {
+                            height: 100px;
+                            resize: vertical;
+                        }
+                        .gender-options {
+                            margin-top: 5px;
+                        }
+                        .gender-option {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 5px;
+                        }
+                        .gender-option input {
+                            margin-right: 10px;
+                        }
+                        .submit-btn {
+                            background-color: #4285f4;
+                            color: white;
+                            border: none;
+                            padding: 10px 20px;
+                            border-radius: 4px;
+                            cursor: pointer;
+                            font-size: 16px;
+                            display: block;
+                            margin: 0 auto;
+                        }
+                        .submit-btn:hover {
+                            background-color: #3367d6;
+                        }
+                    </style>
+                </head>
+                <body>  
+                    <form>
+                        <table class="form-table">
+                            <tr>
+                                <td>Name</td>
+                                <td>:</td>
+                                <td><input type="text" name="name" required></td>
+                            </tr>
+                            <tr>
+                                <td>Tanggal Lahir</td>
+                                <td>:</td>
+                                <td><input type="date" name="birthdate" required></td>
+                            </tr>
+                            <tr>
+                                <td>Jenis Kelamin</td>
+                                <td>:</td>
+                                <td>
+                                    <div class="gender-options">
+                                        <div class="gender-option">
+                                            <input type="radio" id="male" name="gender" value="male" required>
+                                            <label for="male">Laki-Laki</label>
+                                        </div>
+                                        <div class="gender-option">
+                                            <input type="radio" id="female" name="gender" value="female">
+                                            <label for="female">Perempuan</label>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pesan</td>
+                                <td>:</td>
+                                <td><textarea name="message" required></textarea></td>
+                            </tr>
+                        </table>
+                        
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </body>
+                </html>
+            </form>
+        </section>
+    </main>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <span>&copy; 2025 Portfolio Yama. All rights reserved.</span>
+    </footer>
+
+    <!-- JS External -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
